@@ -1,0 +1,123 @@
+.board {
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.box {
+    text-align: center;
+    border: solid rgb(0, 0, 0) 1px;
+    margin: 1px;
+}
+
+.box1 {
+    border-width: 0px 1px 1px 0px;
+}
+
+.box2 {
+    border-width: 0px 1px 1px 1px;
+}
+
+.box3 {
+    border-width: 0px 0px 1px 1px;
+}
+
+.box4 {
+    border-width: 1px 1px 1px 0px;
+}
+
+.box5 {
+    border-width: 1px 1px 1px 1px;
+}
+
+.box6 {
+    border-width: 1px 0px 1px 1px;
+}
+
+.box7 {
+    border-width: 1px 1px 0px 0px;
+}
+
+.box8 {
+    border-width: 1px 1px 0px 1px;
+}
+
+.box9 {
+    border-width: 1px 0px 0px 1px;
+}
+
+.square {
+    text-align: center;
+    width: 97px;
+    height: 97px;
+    margin: 0;
+}
+
+.square:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.xo {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 18px;
+}
+
+.whosTurn {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.turnindicatorx {
+    width: 120px;
+    height: fit-content;
+    border: solid rgb(255, 71, 71) 1px;
+    border-radius: 10px;
+    padding: 0 0 2px 0;
+    margin: 0 10px;
+}
+
+.turnindicatoro {
+    width: 120px;
+    height: fit-content;
+    border: solid rgb(0, 128, 255) 1px;
+    border-radius: 10px;
+    padding: 0 0 2px 0;
+    margin: 0 10px;
+}
+
+.turnindicatoroff {
+    width: 120px;
+    height: fit-content;
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 10px;
+    padding: 0 0 2px 0;
+    margin: 0 10px;
+}
+
+.newGame {
+    background: white;
+    border-radius: 10px;
+    border: solid black 1px;
+    padding: 5px;
+}
+
+.newGame:hover {
+    box-shadow: rgb(210, 210, 210) 1px 1px 15px;
+}
+
+.playerindicator {
+    border: none;
+    outline: 0px;
+}
+
+.playeroption {
+    padding: 10px;
+}
